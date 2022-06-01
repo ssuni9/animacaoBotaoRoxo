@@ -1,0 +1,26 @@
+body{
+    background-color: #272626;
+    font-family: 'Poppins', sans-serif;
+}
+
+.botao{
+   display: inline-block;
+   text-decoration: none;
+   color: #fff;
+   padding: 10px 45px;
+   border: 4px solid #AA86F1;
+   border-radius: 6px;
+   margin-top: 10rem;
+   margin-left: 10rem;
+}
+
+.botao:hover{
+    animation: pulsate  2s ease-in-out;
+}
+
+@keyframes pulsate{
+    0%{
+        box-shadow: 0 0 20px #AA86F1 ;
+        
+    }
+}
